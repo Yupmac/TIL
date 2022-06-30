@@ -42,7 +42,7 @@ vi 를 이용하여 일일히 소스코드를 작성할 수도 있지만, 관리
 1. git 
 2. node.js
   
-위의 사용환경이 설치되었다면 이제 hexo를 설치하고 세팅하자.
+위의 사용환경이 설치되었다면 이제 hexo를 설치하고 세팅하자.  
 $ npm install -g hexo-cli  
 
 ### Init Hexo project  
@@ -59,10 +59,10 @@ $ npm install -g hexo-cli
 마지막으로 업로드 될 hexo 정보를 수정해줘야 하는데 작업할 때는 pakage.json 파일이 있는 경로에서 작업해준다.  
 hexo 정보가 기록된 문서 파일에 다음 내용으로 수정해주면 모든 설정 끝.  
 
-deploy:
-  type: git
-  repo: <repository url>  
-  branch: [branch]
+deploy:  
+  type: git  
+  repo: <repository url>    
+  branch: [branch]  
   message: 
 
   
