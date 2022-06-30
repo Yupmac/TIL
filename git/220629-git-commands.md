@@ -45,36 +45,36 @@ Cat - 문서 내용 확인
 
 <VI commands>
 
-Vi 파일명 - 해당 에디터로 해당 파일 실행. 
-Normal mode - 입력하는 모든 알파벳이 명령어로 작동함. 
-Insert mode - 명령어가 아닌 알파벳으로 입력됨. 
-노멀모드에서 shift + : 누르면 맨 아래줄 왼쪽으로 커서 옮겨짐. 
-:set nu - Line number. 
-:q! - quit with override last changes. 
-:wq - write and quit. 
+Vi 파일명 - 해당 에디터로 해당 파일 실행  
+Normal mode - 입력하는 모든 알파벳이 명령어로 작동함  
+Insert mode - 명령어가 아닌 알파벳으로 입력됨  
+노멀모드에서 shift + : 누르면 맨 아래줄 왼쪽으로 커서 옮겨짐  
+:set nu - Line number  
+:q! - quit with override last changes   
+:wq - write and quit  
 
 ------
 
 본격적으로 git 을 설치하고 시작해보자!  
 Before Start
 
-git 설치 확인( $ git -v ). 
-git 환경설정. 
+git 설치 확인( $ git -v )  
+git 환경설정  
 
-$ git config --global user.name "당신의유저네임". 
-$ git config --global user.email "당신의메일주소". 
-$ git config --global core.editor "vim". 
-$ git config --global core.pager "cat". 
+$ git config --global user.name "당신의유저네임"  
+$ git config --global user.email "당신의메일주소"  
+$ git config --global core.editor "vim"  
+$ git config --global core.pager "cat"  
 
-lg alias 설정: johanmeiring/gist:3002458. 
-$ git config --list 로 정상 설정 확인. 
-수정이 필요할 경우, $ vi ~/.gitconfig 에서 수정 가능. 
+lg alias 설정: johanmeiring/gist:3002458  
+$ git config --list 로 정상 설정 확인  
+수정이 필요할 경우, $ vi ~/.gitconfig 에서 수정 가능  
 
 -----
 
 <commit 할 때 기억해야 할 것>
 
-commit은 동작 가능한 최소단위로 자주 할 것.  
+commit은 동작 가능한 최소단위로 자주 할 것.   
 해당 작업단위에 수행된 모든 파일 변화가 해당 commit에 포함되어야 함. 
 모두가 이해할 수 있는 log를 작성할 것.  
 Open Source Contribution시 영어가 강제되지만, 그렇지 않을 경우 팀 내 사용 언어를
@@ -87,9 +87,9 @@ Open Source Contribution시 영어가 강제되지만, 그렇지 않을 경우 �
 
 <git flow>
 
-git status. 
-git add 'file-name'. 
-git commit. 
-git push origin main. 
+git status  
+git add 'file-name'  
+git commit  
+git push origin main  
 
 
