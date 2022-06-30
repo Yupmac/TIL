@@ -81,10 +81,10 @@ command mode
 
 git flow  
 
-# make some change on README.md  
-$ git add .  
-$ git commit  
-$ git push origin main  
+1. make some change on README.md  
+2. git add .  
+3. git commit  
+4. git push origin main  
 
 
 
