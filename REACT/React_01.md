@@ -60,26 +60,25 @@ const App = () => { return (
 
 - 1부터 100까지 들어있는 array가 있을 때,7의 배수인 경우 '7의 배수'라는 텍스트를 포함한 button 출력.
 10의 배수인 경우 출력하지 않음그 외엔 숫자가 들어있는 button 출력
-    
-    ![스크린샷 2022-07-29 오후 5.14.00.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/741bd4e1-8f94-44c2-8ae3-053c6de28cc3/_2022-07-29__5.14.00.png)
-    
+
 - **클린 코드:**
     
-    ```jsx
+```jsx
 const arr = Array.from(Array(100), (_, i) => i+1);
 // 1부터 100까지 들어있는 arr
 const App = () => {
-  return (
+    return (
     <div>
         {arr
-	        .filter((item) => item % 10)
+		    .filter((item) => item % 10)
             .map((item) => (
-			    <button key={item}>
-				    {item % 7 === 0 ? '7의 배수' : item}
-			    </button>
-		    ))
-    	}
-     </div>
-  );
+				<button key={item}>
+					{item % 7 === 0 ? '7의 배수' : item}
+				</button>
+			))
+		}
+	</div>
+	);
 };
-    ```
+
+```
