@@ -66,31 +66,20 @@ const App = () => { return (
 - **클린 코드:**
     
     ```jsx
-    import React from 'react';
-    // 1부터 100까지 들어있는 arr
-    const arr = Array.from(Array(100), (_, i) => i+1);
-    
-    const App = (props) => {
-      return (
-      <div>
-        {props.arr.map((item, idx) => {
-          if (item % 7 === 0) {
-            return (
-              <button type='button' key={idx}>
-                7의 배수
-              </button>
-            );
-          } else if (item % 10 === 0) {
-            return null;
-          } else {
-            return (
-                <button type='button' key={idx}>
-                  {item}
-                </button>
-              );
-            }
-          })}
-        </div>
-      );
-    };
+const arr = Array.from(Array(100), (_, i) => i+1);
+// 1부터 100까지 들어있는 arr
+const App = () => {
+  return (
+    <div>
+        {arr
+	        .filter((item) => item % 10)
+            .map((item) => (
+			    <button key={item}>
+				    {item % 7 === 0 ? '7의 배수' : item}
+			    </button>
+		    ))
+    	}
+     </div>
+  );
+};
     ```
