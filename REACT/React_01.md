@@ -18,7 +18,7 @@
 
 어떤 식으로 자바스크립트와 리액트(JSX) 간의 인자를 주고 받을 수 있는지 명확하게 알자.
 
-[https://ko.reactjs.org/docs/hello-world.html](https://ko.reactjs.org/docs/hello-world.html)
+![React#1_01.png](https://github.com/Yupmac/TIL/blob/main/img/React%231_01.png)
 
 ---
 
@@ -52,7 +52,7 @@ const App = () => { return (
 
 ## react 에서 key 가 하는 역할
 
-![React#1_02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37e18f47-59e6-4ebc-a786-7b9dfad6e8b9/React1_02.png)
+![React#1_02.png](https://github.com/Yupmac/TIL/blob/main/img/React%231_02.png)
 
 ---
 
