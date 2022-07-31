@@ -92,7 +92,7 @@ export default App;
 
 - **코드를 어떻게 바꿔야 아래처럼 동작할까?**
     
-    ![React#2_02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b47846d5-821a-4a5f-8d95-2531b7296385/React2_02.png)
+    ![React#2_01.png](https://github.com/Yupmac/TIL/blob/main/img/React%232_01.png)
     
 - **클린 코드:**
     
@@ -173,7 +173,7 @@ if (input.current) {
 - **실습1** 결과물에 우측과 같이 
 “현재 value는 ~~~ 입니다.” 문구 추가해보기
 
-![React#2_01.png](https://github.com/Yupmac/TIL/blob/main/img/React%232_02.png)
+![React#2_02.png](https://github.com/Yupmac/TIL/blob/main/img/React%232_02.png)
 
 ```jsx
 const App = () => {
