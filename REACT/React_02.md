@@ -173,7 +173,7 @@ if (input.current) {
 - **실습1** 결과물에 우측과 같이 
 “현재 value는 ~~~ 입니다.” 문구 추가해보기
 
-![React#2_03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6846b893-d60f-42d8-808b-6a02b3a147a7/React2_03.png)
+![React#2_01.png](https://github.com/Yupmac/TIL/blob/main/img/React%232_02.png)
 
 ```jsx
 const App = () => {
