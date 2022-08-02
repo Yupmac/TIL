@@ -20,7 +20,7 @@ open api 를 받아오긴 했는데 이걸 어떻게 자료화하는지를 몰�
 
  
 
-![질문_에러.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1507ed0e-d56f-44dd-827a-4636b26993d6/_.png)
+![질문_에러.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%89%E1%85%B5%E1%86%BC%E1%84%80%E1%85%B3%E1%86%AF_%E1%84%8F%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%8B%E1%85%A6%E1%84%85%E1%85%A5.png)
 
 Uncaught SyntaxError: Lexical declaration cannot appear in a single-statement context
 
