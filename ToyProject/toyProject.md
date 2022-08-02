@@ -38,7 +38,7 @@ promise .then 문법보다 async await 문법이 더 쉬운 최신 문법이라�
 
 그렇게 리팩토링 성공
 
-![토이프로젝트#01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/412ff6cb-6cc2-405f-8583-5f039afed22c/01.png)
+![토이프로젝트#01.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%90%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2301.png)
 
 뭐 기존 코드가 워낙 짧았기에 별 차이 없는거 같아도 그냥 내가 보기에 이 쪽이 더 직관적이어서 만족한다.
 
@@ -56,7 +56,7 @@ promise .then 문법보다 async await 문법이 더 쉬운 최신 문법이라�
 
 말 그대로 이벤트가 키를 입력할 때마다 작동하기 때문에 이걸 우선 멈춰줘야 한다.
 
-![토이프로젝트#02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/514568af-5607-4e34-9382-92119a71cdde/02.png)
+![토이프로젝트#02.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%90%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2302.png)
 
 clearTimeout() 메소드를 활용하여 잠시 이벤트를 멈춰뒀다가 timeout 이라는 매개변수를 재할당하여 setTimeout() 메소드를 실행시킨다.
 
@@ -78,7 +78,7 @@ clearTimeout() 메소드를 활용하여 잠시 이벤트를 멈춰뒀다가 tim
 
 결국 포기하고 원래 생각해뒀던 for 반복문을 이용한 방법으로 빌드업해본다.
 
-![토이프로젝트#03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d185a639-a31d-4c23-a6d0-989bc07faebd/03.png)
+![토이프로젝트#03.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%90%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2303.png)
 
 값을 출력하는건 크게 어렵지 않았다.
 
