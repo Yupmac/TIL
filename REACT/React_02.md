@@ -213,3 +213,239 @@ const App = () => {
   );
 }
 ```
+## ****uncontrolled input 비제어 인풋****
+
+리액트 스테이트 값을 이용해서 인풋에 렌더되는 밸류를 제어하지 않는 것을 말함.
+********
+
+---
+
+### 실습3
+
+- 그렇다면 useRef 와 uncontrolled input은 필요없고 controlled input만 알고있으면 될까?
+- reset 버튼을 누르면 input에 focus가 되도록 해보기
+
+```jsx
+const App = () => {
+const [value, setValue] = React.useState(''); 
+const handleClick = () => {
+	setValue('');
+}
+  return (
+    <div>
+			<input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
+			<button type="button" onClick={handleClick}>Click to Reset and Focus!</button> 
+		</div>
+	);
+}
+```
+
+- **클린 코드:**
+    
+    ```jsx
+    const App = () => {
+    	const input = React.useRef(null);
+    	const [value, setValue] = React.useState(''); 
+    	const handleClick = () => {
+    		setValue('');
+    		if (input.current) {
+    			input.current.focus();
+    		}
+    	}
+      return (
+        <div>
+    			<input
+    			type="text"
+    			ref={input}
+    			value={value}
+    			onChange={(e) => setValue(e.target.value)}
+    			/>
+    			<button type="button" onClick={handleClick}>Click to Reset and Focus!</button> 
+    		</div>
+    	);
+    }
+    ```
+    
+
+---
+
+### 실습4. ****controlled input 유효성 검사 구현하기****
+
+- id는 6글자 이상 20글자 이하인 경우 유효
+- password는 12글자 이상 20글자 이하인 경우 유효
+- 유효하지 않는 input 밑에 "유효하지 않은 ~~입니다." 출력
+- id와 password가 둘 다 비어있으면 회원가입 버튼 disable 처리
+- 유효하지 않은 input이 존재하는 경우 회원가입 버튼 클릭 시
+에러 alert를 띄워주고, 해당 input reset하고, focus 시켜주기
+- 모두 유효한 경우 회원가입 버튼 클릭 시 "회원가입 성공!" alert 띄워주기
+
+```jsx
+const App = () => {
+const handleClick = () => {
+alert('회원가입 성공!'); };
+  return (
+    <div>
+<div> <input
+type="text"
+name='id'
+placeholder='6글자 이상 20글자 이하'
+/>
+{/* 에러메세지 자리 */} </div>
+<div> <input
+type="text"
+name='password' placeholder='12글자 이상 20글자 이하'
+/>
+{/* 에러메세지 자리 */} </div>
+<button type="button" onClick={handleClick} disabled={false}>회원가입</button> </div>
+);
+}
+```
+
+- **클린 코드:**
+    
+    ```jsx
+    const App = () => {
+      const [id, setId] = React.useState('');
+      const [pw, setPw] = React.useState('');
+      const idRef = React.useRef(null);
+      const pwRef = React.useRef(null);
+      const idInvalid = !(id.length >= 6 && id.length <= 20)
+      const pwInvalid = !(pw.length >= 12 && pw.length <= 20)
+      const handleClick = () => {
+        if (idInvalid) {
+          setId('');
+          idRef.current.focus();
+          alert('유효하지 않은 id입니다');
+        } else if (pwInvalid) {
+          setPw('');
+          pwRef.current.focus();
+          alert('유효하지 않은 password입니다');
+        } else {
+          alert('회원가입 성공!');
+        }
+      };
+      const handleChangeId = (e) => {
+        setId(e.target.value);
+      }
+      const handleChangePw = (e) => {
+        setPw(e.target.value);
+      }
+      return (
+        <div>
+          <div>
+            <input
+              type="text"
+              ref={idRef}
+              name='id'
+              value={id}
+              placeholder='6글자 이상 20글자 이하'
+              onChange={handleChangeId}
+            />
+            {/* 에러메세지 자리 */}
+            {idInvalid && '유효하지 않은 id입니다'}
+          </div>
+          <div>
+            <input
+              ref={pwRef}
+              type="text"
+              name='password'
+              value={pw}
+              placeholder='12글자 이상 20글자 이하'
+              onChange={handleChangePw}
+            />
+            {/* 에러메세지 자리 */}
+            {pwInvalid && '유효하지 않은 password입니다'}
+          </div>
+          <button type="button" onClick={handleClick} disabled={!(id || pw)}>회원가입</button>
+        </div>
+      );
+    }
+    ```
+    
+
+- email input을 추가하고,
+"숫자혹은문자@숫자혹은문자.숫자혹은문자"
+포맷을 만족하는 경우 유효로 판단하기
+(regex 사용해보기)
+- input이 무한정 늘어날 수 있도록 loop를 활용해 확장성 있는 코드 만들어보기
+- **클린 코드:**
+    
+    ```jsx
+    import React from 'react';
+    
+    const fields = [{
+      key: 'id',
+      label: 'id',
+      placeholder: '6글자 이상 20글자 이하',
+      initialValue: '',
+      checkValid: (v) => v.length >= 6 && v.length <= 20,
+    }, {
+      key: 'pw',
+      label: 'password',
+      placeholder: '12글자 이상 20글자 이하',
+      initialValue: '',
+      checkValid: (v) => v.length >= 12 && v.length <= 20,
+    }, {
+      key: 'name',
+      label: '이름',
+      initialValue: '',
+      placeholder: '아무이름',
+      checkValid: (v) => v.length >= 1 && v.length <= 5,
+    }]
+    
+    const App = () => { 
+      const [values, setValues] = React.useState(fields.reduce((acc, { key, initialValue }) => ({ ...acc, [key]: initialValue }), {}));
+      const refs = React.useRef(Array.from(Array(fields.length, () => null)));
+      const valids = fields.map(({ key, checkValid }) => checkValid(values[key]));
+      const isButtonDisabled = !Object.values(values).some(value => value.length);
+    
+      const handleClick = () => {
+        const isAllValid = valids.every((isValid, i) => {
+          const { key, initialValue, label } = fields[i];
+          if (!isValid) {
+            setValues(prev => ({
+              ...prev,
+              [key]: initialValue,
+            }))
+            refs.current[i].focus();
+            alert(`유효하지 않은 ${label}입니다`);
+          }
+          return isValid;
+        });
+        if (!isAllValid) {
+          return;
+        }
+        alert('회원가입 성공!');
+      };
+    
+      const handleChangeValue = (e) => {
+        setValues(prev => ({
+          ...prev,
+          [e.target.name]: e.target.value,
+        }));
+      }
+      
+      return (
+        <div>
+          {fields.map(({ key, label, placeholder }, i) => (
+            <div key={key}>
+              <input
+                type="text"
+                ref={ref => refs.current[i] = ref}
+                name={key}
+                value={values[key]}
+                placeholder={placeholder}
+                onChange={handleChangeValue}
+              />
+              {/* 에러메세지 자리 */}
+              {!valids[i] && `유효하지 않은 ${label}입니다`}
+            </div>
+          ))}
+          <button type="button" onClick={handleClick} disabled={isButtonDisabled}>회원가입</button>
+        </div>
+      );    
+    }
+    
+    export default App;
+    ```
+
