@@ -152,7 +152,7 @@ api 잘 불러왔고, 검색 잘 되고, 0.5초 딜레이도 잘 처리되고, �
 
 일단 다음 과제를 해결해보자 하면서 클립 기능 개발로 넘어갔다.
 
-![토이프로젝트#04.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/579034ff-e51b-40e1-b17e-75e373958b3d/%E1%84%90%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B304.png)
+![토이프로젝트#04.png](https://github.com/Yupmac/TIL/blob/main/img/%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%2304.png)
 
 그러나 한 함수 안에 두 버튼 이벤트를 넣으니 같이 작동하지 않고 한쪽 이벤트는 먹통됨
 
