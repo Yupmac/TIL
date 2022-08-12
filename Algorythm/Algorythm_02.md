@@ -341,7 +341,17 @@ function solution(s, k) {
 - 문자열 s의 길이는 100을 넘지 않습니다.
 
 ```jsx
-
+function solution(s) {
+  let sH = {};
+  let odd = 0;
+  for(let x of s) {
+    sH[x] = (sH[x] || 0) + 1;
+  }
+  for (let key of Object.keys(sH)) {
+    if(sH[key] % 2 === 1 ) odd++;
+  }
+  return odd > 0 ? s.length - odd + 1 : s.length;
+}
 ```
 
 ---
