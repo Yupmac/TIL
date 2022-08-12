@@ -1,6 +1,6 @@
 # Map
 
-![알고리즘#2_01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db5dd058-6b32-408d-97c6-dce073530810/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B72_01.png)
+![알고리즘#2_01.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_01.png)
 
 ---
 
@@ -15,7 +15,7 @@
 
 입출력 예:
 
-![알고리즈#2_02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/299f1b0a-b606-45bb-8500-1fd685039eff/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_02.png)
+![알고리즈#2_02.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_02.png)
 
 제한사항:
 
@@ -54,7 +54,7 @@ function solution(s) {
 
 입출력 예:
 
-![알고리즈#2_03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60ce3d20-732d-4577-b11c-b504ca52332d/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_03.png)
+![알고리즈#2_03.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_03.png)
 
 제한사항:
 
@@ -93,7 +93,7 @@ function solution(s) {
 
 입출력 예:
 
-![알고리즈#2_04.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7da56f5-ad8f-4844-9ddb-89ebe10eda90/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_04.png)
+![알고리즈#2_04.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_04.png)
 
 제한사항:
 
@@ -126,7 +126,7 @@ console.log(solution("abcdefgbb")) // 3
 
 입출력 예:
 
-![알고리즈#2_05.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41864d7a-e2ca-4263-8a5b-600a07013f3d/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_05.png)
+![알고리즈#2_05.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_05.png)
 
 제한사항:
 
@@ -158,7 +158,7 @@ function solution(s) {
 
 입출력 예:
 
-![알고리즈#2_06.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/18d01108-71d3-4879-822a-3a4d43f4d8aa/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_06.png)
+![알고리즈#2_06.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_06.png)
 
 제한사항:
 
@@ -195,7 +195,7 @@ function solution(nums) {
 
 입출력 예:
 
-![알고리즈#2_07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac76e596-3b9f-4fa2-8494-f94f145dbf66/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_07.png)
+![알고리즈#2_07.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_07.png)
 
 제한사항:
 
@@ -233,7 +233,7 @@ a:3 , b:1, c:2 가 되어 빈도수가 모두 다르게 됩니다.
 
 입출력 예:
 
-![알고리즈#2_08.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9ab20d4-59d6-481c-b6a3-b3541248bf43/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_08.png)
+![알고리즈#2_08.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_08.png)
 
 제한사항:
 
@@ -269,7 +269,7 @@ function solution(s) {
 소문자로만 이루어진 문자열이 주어지면 해당 문자열의 문자들의 순서를 재배치해서 팰린드롬 (회문)을 만들 수 있는지를 확인하고 싶습니다. 만약 “abbac"같은 문자열은 문자들을 ”abcba" 로 재 배치하면 팰린드롬을 만들 수 있습니다. 매개변수 s에 문자열이 주어지면 해당 문자열 이 재 배치를 통해 팰린드롬을 만들 수 있으면 true를 못 만들면 false를 반환하는 프로그램을 작성하세요.
 입출력 예:
 
-![알고리즈#2_09.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48a16c9a-bbc7-4056-b8d1-01d99205bb85/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_09.png)
+![알고리즈#2_09.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_09.png)
 
 제한사항:
 • 문자열 s의 길이는 100을 넘지 않습니다.
@@ -302,7 +302,7 @@ function solution(s) {
 
 입출력 예:
 
-![알고리즈#2_10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67f62870-f549-4ddf-8880-cad88bd49050/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_10.png)
+![알고리즈#2_10.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_10.png)
 
 제한사항:
 
@@ -334,7 +334,7 @@ function solution(s, k) {
 
 입출력 예:
 
-![알고리즈#2_11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26c6b058-031f-4db5-bea7-bc29277bef33/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B32_11.png)
+![알고리즈#2_11.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%232_11.png)
 
 제한사항:
 
