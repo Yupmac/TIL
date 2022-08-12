@@ -8,9 +8,9 @@
 
 </aside>
 
-![알고리즘#1_01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b55b585d-76c2-473e-b00b-56a859a95f57/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_01.png)
+![알고리즘#1_01.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_01.png)
 
-![알고리즘#1_02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98c6cb05-cd4f-43fe-9207-baa6b2ab5624/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_02.png)
+![알고리즘#1_02.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_02.png)
 
 ## 문자 찾기
 
@@ -23,7 +23,7 @@
 - 문자열 s의 길이는 100을 넘지 않습니다.
 - 문자열 s는 대문자로만 이루어져 있습니다.
     
-    ![알고리즘#2_03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb49478b-508d-4d73-857b-fc830216743c/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B72_03.png)
+    ![알고리즘#2_03.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_03.png)
     
 
 ```jsx
@@ -51,7 +51,7 @@ function solution(s, c) {
 한 개의 문자열을 입력받아 해당 문자열에 알파벳 대문자가 몇 개 있는지 알아내는 프로그램을 작성하려 합니다.
 매개변수 s에 문자열이 주어지면 s문자열에 대문자가 몇 개있는지 개수를 반환하는 프로그램을 작성하세요.
 
-![알고리즘#1_04.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66c7a553-edf3-487d-8828-52dc9c2df1c8/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_04.png)
+![알고리즘#1_04.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_04.png)
 
 제한사항:
 
@@ -97,7 +97,7 @@ function solution(s) {
 매개변수 s에 대소문자가 존재하는 문자열이 입력되면 문자열 s의 대문자는 소문자로, 
 소문자는 대문자로 변환하여 반환하는 프로그램을 작성하세요.
 
-![알고리즘#1_05.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fefb12e7-ddd1-41d9-8c64-47b17f80d91b/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_05.png)
+![알고리즘#1_05.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_05.png)
 
 제한사항:
 
@@ -122,7 +122,7 @@ N개의 문자열이 입력되면 그 중 가장 긴 문자열을 찾으려고 �
 매개변수 s에 N개의 문자열이 주어지면 그 중 가장 긴 문자열을 반환하는 프로그램을 작성하세요. 
 답이 여러개면 s배열에서 제일 먼저 나타나는 문자열을 답으로 합니다.
 
-![알고리즘#1_06.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/49bbcbe8-0f33-40ee-9acf-5f97be93bdec/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_06.png)
+![알고리즘#1_06.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_06.png)
 
 제한사항:
 
@@ -150,7 +150,7 @@ function solution(s) {
 반환하는 프로그램을 작성하세요.
 제거된 문자열의 각 문자는 원래 문자열의 순서를 유지합니다.
 
-![알고리즘#1_07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0bb539e1-4870-4cdc-a55e-8a307176c145/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_07.png)
+![알고리즘#1_07.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_07.png)
 
 제한사항:
 
@@ -182,7 +182,7 @@ N개의 문자열이 주어지면 이 문자열들의 최대 공통 접두사를
 매개변수 s에 N개의 문자열이 주어지면 각 문자열들의 최대 공통 접두사를 반환하는 프로그램을 작성하세요. 
 공통 접두사는 반드시 존재합니다.
 
-![알고리즘#1_08.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/86e2c606-5a5d-4c52-b84c-c01fbe74ff40/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_08.png)
+![알고리즘#1_08.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_08.png)
 
 제한사항:
 
@@ -218,7 +218,7 @@ console.log(solution(["long", "longtime", "longest"]));
 매개변수 s에 문자열이 입력되면 반복횟수를 표기하는 방법으로 문자열을 압축하여 
 반환하는 프로그램을 작성하세요. 단, 반복횟수가 1인 경우 생략합니다.
 
-![알고리즘#1_09.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4467d5bf-fbf5-4615-84f3-d17c28ddff2d/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_09.png)
+![알고리즘#1_09.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_09.png)
 
 제한사항:
 
@@ -251,7 +251,7 @@ console.log(solution("KKHSSSSSSSE"));
 회문 문자열이 아니면 “NO"를 출력하는 프로그램을 작성하세요.
 단, 회문을 검사할 때 대소문자를 구분하지 않습니다.
 
-![알고리즘#1_10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ce17319-bff8-4568-80ce-cfad321ead99/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_10.png)
+![알고리즘#1_10.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_10.png)
 
 제한사항:
 
@@ -287,7 +287,7 @@ console.log(solution("gooG"));
 
 문자열 s가 주어지면 s가 최대 문자 1개까지 지워서 회문문자열이 되면 “YES"를 출력하고, 그 렇지 않으면 ”NO"를 출력하는 프로그램을 작성하세요.
 
-![알고리즘#1_11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20ae5009-763e-453e-ba7b-b01c30241240/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_11.png)
+![알고리즘#1_11.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_11.png)
 
 제한사항:
 
@@ -335,7 +335,7 @@ console.log(solution("abcabbakcba"));
 만약 입력된 문자열이 "fivesevenzero"는 570으로 변환됩니다.
 만약 입력된 문자열이 "zerofiveseven"는 057이지만 첫 자리 0은 무시하고 57로 변환합니다.
 
-![알고리즘#1_12.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4c7d91b-a3fc-4a6b-93c8-ce97cd384702/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B71_12.png)
+![알고리즘#1_12.png](https://github.com/Yupmac/TIL/blob/main/img/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%231_12.png)
 
 제한사항:
 
