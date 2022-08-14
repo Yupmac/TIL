@@ -1,6 +1,6 @@
 # 배열 메소드
 
-![알고리즘#3_01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f42967c5-98a7-4636-a99f-da2d8b3751df/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_01.png)
+![알고리즘#3_01.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_01.png)
 
 ---
 
@@ -14,7 +14,7 @@
 
 입출력 예:
 
-![알고리즘#3_02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7dacb98d-0296-4c07-8464-ce907f48f191/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_02.png)
+![알고리즘#3_02.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_02.png)
 
 제한사항:
 
@@ -72,14 +72,14 @@ K번째 문제는 K점으로 계산한다. 틀린 문제는 0점으로 계산한
 틀린 경우에는 0으로 표시하였을 때, 점수 계산은 아래 표와 같이 계산되어, 
 총 점수는 1+1+2+3+1+2=10 점이다.
 
-![알고리즘#3_03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6383dc4-3fb0-48d3-82d3-9448aeacfbe8/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_03.png)
+![알고리즘#3_03.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_03.png)
 
 매개변수 nums에 시험문제의 채점 결과가 주어졌을 때, 
 총 점수를 계산하는 프로그램을 작성하시오.
 
 입출력 예:
 
-![알고리즘#3_04.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be13a6ec-c772-417a-a600-a3e514e2c826/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_04.png)
+![알고리즘#3_04.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_04.png)
 
 [1차원 배열 시뮬레이션]
 
@@ -120,7 +120,7 @@ function solution(nums) {
 
 입출력 예:
 
-![알고리즘#3_05.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7551d10d-0ce5-474b-a806-1b4b5723b68e/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_05.png)
+![알고리즘#3_05.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_05.png)
 
 제한사항: 
 
@@ -199,7 +199,7 @@ console.log(solution([5, 2, 4, 7, 7, 3, 9, 10, 11]));
 
 입출력 예:
 
-![알고리즘#3_06.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2beb3105-89de-448b-a29e-998c3b329116/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_06.png)
+![알고리즘#3_06.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_06.png)
 
 제한사항:
 
@@ -236,7 +236,7 @@ function solution(nums) {
 
 입출력 예:
 
-![알고리즘#3_07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3fda4ed1-137d-4831-abd1-0a8749a619cf/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_07.png)
+![알고리즘#3_07.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_07.png)
 
 제한사항:
 
@@ -320,7 +320,7 @@ k개의 키로 완성할 수 있으면 true, 없으면 false를 반환하는 프
 
 입출력 예
 
-![알고리즘#3_08.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a38595d-0649-4a7b-9db9-95fc2efb0a8b/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_08.png)
+![알고리즘#3_08.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_08.png)
 
 제한사항:
 • s문자열은 대소문자로만 이루어져 있습니다.
@@ -375,7 +375,7 @@ console.log(solution("TteacHer", 7));
 
 입출력 예
 
-![알고리즘#3_09.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8656164f-5a2a-4dd5-9700-44614245ad4c/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B73_09.png)
+![알고리즘#3_09.png](https://github.com/Yupmac/TIL/blob/main/img/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%233_09.png)
 
 제한사항:
 • s문자열은 대소문자로만 이루어져 있습니다.
