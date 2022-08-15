@@ -108,4 +108,4 @@ EJS 라이브러리 활용하기
     <% } %>
 ```
 
-![스크린샷 2022-08-15 오전 3.54.18.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4c79a614-ab1a-41b9-b659-d39c8930eff1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-08-15_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_3.54.18.png)
+![스크린샷 2022-08-15 오전 3.54.18.png](https://github.com/Yupmac/TIL/blob/main/img/nodejs%231_01.png)
