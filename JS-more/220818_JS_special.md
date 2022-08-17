@@ -113,7 +113,7 @@ fetch('https://www.omdbapi.com/?apikey=1237035c60c&s=frozen')
   .then(res => console.log(res))
 ```
 
-![JS보강#1_01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca4a4a13-a794-45af-9e88-5098ee9a4d1d/JS%E1%84%87%E1%85%A9%E1%84%80%E1%85%A1%E1%86%BC1_01.png)
+![JS보강#1_01.png](https://github.com/Yupmac/TIL/blob/main/img/JS%E1%84%87%E1%85%A9%E1%84%80%E1%85%A1%E1%86%BC%231_01.png)
 
 400번대 에러는 요청 오류(너가 뭔가 잘못 요청한거야)
 
@@ -130,7 +130,7 @@ fetch('https://www.omdbapi.com/?apikey=7035c60c&s=frozen')
   .then(res => console.log(res))
 ```
 
-![JS보강#1_02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c27296f2-2a34-4d1a-aac3-7e0b0ae1122e/JS%E1%84%87%E1%85%A9%E1%84%80%E1%85%A1%E1%86%BC1_02.png)
+![JS보강#1_02.png](https://github.com/Yupmac/TIL/blob/main/img/JS%E1%84%87%E1%85%A9%E1%84%80%E1%85%A1%E1%86%BC%231_02.png)
 
 ---
 
