@@ -401,5 +401,6 @@ function solution(s, k){
 	}
 	return answer;
 }
-console.log(solution("TATteEaccHAaeEr", 2));
+console.log(solution("TATteEaccHAaeEr", 2))g
 ```
+
